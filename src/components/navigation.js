@@ -1,10 +1,9 @@
 import React from "react"
-import {Link} from "gatsby"
 import ThemeChanger from "../components/themeChanger"
 
 export default (props) => (
   <nav className="navigation"> 
-    <Link to="/contact">Contact</Link>
+    <a href="https://contact.marchelfahrezi.my.id/">Portofolio</a>
     <ThemeChanger/>
   </nav>
   
